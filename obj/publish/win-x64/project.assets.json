@@ -1,0 +1,151 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "EAGetMail/5.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/EAGetMail.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/EAGetMail.dll": {}
+        }
+      }
+    },
+    "net6.0-windows7.0/win-x64": {
+      "EAGetMail/5.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/EAGetMail.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/EAGetMail.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EAGetMail/5.2.5": {
+      "sha512": "4OQdmRrpnfoBUE/PBaibmLdNax9qs/Ln67+9EUzI3/RjbsAcoi2jIXO4sea2gFdB0o3+liLd3xb5a4DE493BhA==",
+      "type": "package",
+      "path": "eagetmail/5.2.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eagetmail.5.2.5.nupkg.sha512",
+        "eagetmail.nuspec",
+        "lib/net20-cf/EAGetMail.dll",
+        "lib/net20/EAGetMail.dll",
+        "lib/net35-cf/EAGetMail.dll",
+        "lib/net40/EAGetMail.dll",
+        "lib/net45/EAGetMail.dll",
+        "lib/net461/EAGetMail.dll",
+        "lib/net472/EAGetMail.dll",
+        "lib/net5.0/EAGetMail.deps.json",
+        "lib/net5.0/EAGetMail.dll",
+        "lib/netcoreapp3.1/EAGetMail.deps.json",
+        "lib/netcoreapp3.1/EAGetMail.dll",
+        "lib/netstandard2.0/EAGetMail.deps.json",
+        "lib/netstandard2.0/EAGetMail.dll",
+        "lib/uap10.0/EAGetMail.winmd",
+        "tools/init.ps1",
+        "tools/installed.dat"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "EAGetMail >= 5.2.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\brayd\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\EssentialExports.csproj",
+      "projectName": "EssentialExports",
+      "projectPath": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\EssentialExports.csproj",
+      "packagesPath": "C:\\Users\\brayd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\obj\\publish\\win-x64\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\brayd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "EAGetMail": {
+            "target": "Package",
+            "version": "[5.2.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.0, 6.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[6.0.0, 6.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.0, 6.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.0, 6.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}

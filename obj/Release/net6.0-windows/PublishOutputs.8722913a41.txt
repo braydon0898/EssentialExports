@@ -1,0 +1,6 @@
+C:\Users\brayd\EssentialExports.exe
+C:\Users\brayd\EssentialExports.dll
+C:\Users\brayd\EssentialExports.deps.json
+C:\Users\brayd\EssentialExports.runtimeconfig.json
+C:\Users\brayd\EssentialExports.pdb
+C:\Users\brayd\EAGetMail.dll
