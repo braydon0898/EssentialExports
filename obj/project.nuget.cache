@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XV+ApsFmkX7Lu0xqkZwjfJdAEi7yxCYTtZPUizIVWPrMKfpzSJvj81z61+WBGODsk5Ud5Q540iActD4ixc6ffA==",
+  "dgSpecHash": "nzHz3wv75vkKBaI3z+ZKVTRe0aJfBI/pJFnWODJTFjYmi+RCaU5BAk732qhpSERT5pGBdehx2fZmzc8pwS2P+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\EssentialExports.csproj",
+  "projectFilePath": "C:\\Users\\brayd\\Repos\\EssentialExports\\EssentialExports.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brayd\\.nuget\\packages\\eagetmail\\5.2.5\\eagetmail.5.2.5.nupkg.sha512"
   ],

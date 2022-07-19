@@ -69,7 +69,7 @@
                                     <ColumnDefinition Width="153*"/>
                                     <ColumnDefinition Width="67*"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBox Style="{StaticResource LoginTextBoxStyle}" Name="SubjectLineFilterBox" IsEnabled="{Binding ElementName=SubjectLineFilterTextBox, Path=SubjectLineFilter}" CharacterCasing="Lower" TabIndex="4" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Left" />
+                                <TextBox Style="{StaticResource LoginTextBoxStyle}" Name="SubjectLineFilter" IsEnabled="{Binding ElementName=SubjectLineFilterTextBox, Path=SubjectLineFilter}" CharacterCasing="Lower" TabIndex="4" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Left" />
                             </Grid>
 
                             <Grid Margin="0,0,0,8">
@@ -81,7 +81,7 @@
                                     <ColumnDefinition Width="153*"/>
                                     <ColumnDefinition Width="67*"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBox Style="{StaticResource LoginTextBoxStyle}" Name="FilePath" IsEnabled="{Binding ElementName=SubjectLineFilterTextBox, Path=SubjectLineFilter}" CharacterCasing="Lower" TabIndex="4" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Left" />
+                                <TextBox Style="{StaticResource LoginTextBoxStyle}" Name="FolderPath" IsEnabled="{Binding ElementName=SubjectLineFilterTextBox, Path=SubjectLineFilter}" CharacterCasing="Lower" TabIndex="4" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" HorizontalAlignment="Left" />
                             </Grid>
                             <Button Name="LocalLoginButton" Click="btnEssentialExports" Content="Export Essentials" Width="220" Height="36" Margin="0,10,0,32" TabIndex="8" />
 

@@ -28,7 +28,7 @@ namespace EssentialExports
 
         private void btnEssentialExports(object sender, RoutedEventArgs e)
         {
-            bool isPathValid = FilePathValidation.IsValidFilePath(FilePath.Text);
+            bool isPathValid = FilePathValidation.IsValidFilePath(FolderPath.Text);
             if (!isPathValid)
             {
                 System.Windows.MessageBox.Show("Please provide a valid file path.");
@@ -44,14 +44,18 @@ namespace EssentialExports
                 return;
             }
 
-            int attachmentSaveCount = Gmail.ScrapeAttachments(FilePath.Text, SubjectLineFilterBox.Text);
+            int attachmentSaveCount = Gmail.ScrapeAttachments(FolderPath.Text, SubjectLineFilter.Text);
         }
 
         private void btnOpenFile_Click(object sender, RoutedEventArgs e)
         {
             FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
-            folderBrowserDialog.ShowDialog();
-            FilePath.Text = System.IO.Path.GetDirectoryName(folderBrowserDialog.SelectedPath);
+            DialogResult result = folderBrowserDialog.ShowDialog();
+            if (result == System.Windows.Forms.DialogResult.OK)
+            {
+                FolderPath.Text = folderBrowserDialog.SelectedPath;
+            }
+
         }
 
         private void BtnActionMinimize_OnClick(object sender, RoutedEventArgs e)
