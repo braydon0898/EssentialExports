@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aPbGZ3OYQYjRud/DX4VaV5XME/9MEwyOlcD8/dw7vDkHb1a23oD6C7xIZcUAuB3kSrW9yB+TANe7cnDqPBAQ6A==",
+  "dgSpecHash": "GvTzUFyC2tNSYRDOQ5ybOPLjcEZqyN6MQVC1FKgYcJy1yfQjiaDrtMn4XLaof2mkOGjFqs2PlAA2voXnwGCBtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\EssentialExports.csproj",
+  "projectFilePath": "C:\\Users\\brayd\\Repos\\EssentialExports\\EssentialExports.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brayd\\.nuget\\packages\\eagetmail\\5.2.5\\eagetmail.5.2.5.nupkg.sha512",
     "C:\\Users\\brayd\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0\\microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512",

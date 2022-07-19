@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\EssentialExports.csproj",
+      "projectUniqueName": "C:\\Users\\brayd\\Repos\\EssentialExports\\EssentialExports.csproj",
       "projectName": "EssentialExports",
-      "projectPath": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\EssentialExports.csproj",
+      "projectPath": "C:\\Users\\brayd\\Repos\\EssentialExports\\EssentialExports.csproj",
       "packagesPath": "C:\\Users\\brayd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brayd\\source\\repos\\EssentialExports\\obj\\publish\\win-x64\\",
+      "outputPath": "C:\\Users\\brayd\\Repos\\EssentialExports\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brayd\\AppData\\Roaming\\NuGet\\NuGet.Config",

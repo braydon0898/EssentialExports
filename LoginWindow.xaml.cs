@@ -45,6 +45,8 @@ namespace EssentialExports
             }
 
             int attachmentSaveCount = Gmail.ScrapeAttachments(FolderPath.Text, SubjectLineFilter.Text);
+            System.Windows.MessageBox.Show($"{attachmentSaveCount} attachment(s) saved to {FolderPath.Text}");
+            System.Windows.Application.Current.Shutdown();
         }
 
         private void btnOpenFile_Click(object sender, RoutedEventArgs e)
